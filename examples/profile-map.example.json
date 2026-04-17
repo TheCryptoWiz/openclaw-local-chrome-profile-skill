@@ -1,0 +1,29 @@
+{
+  "profiles": [
+    {
+      "business_key": "business-a",
+      "profile_label": "Profile BusinessA",
+      "cdp_port": 18810,
+      "start_url": "https://example-a.com/login",
+      "mode": "dedicated-automation-profile",
+      "notes": "Use only for business-a workflows."
+    },
+    {
+      "business_key": "business-b",
+      "profile_label": "Profile BusinessB",
+      "cdp_port": 18811,
+      "start_url": "https://example-b.com/login",
+      "mode": "dedicated-automation-profile",
+      "notes": "Keep separate from business-a cookies and tabs."
+    },
+    {
+      "business_key": "business-c",
+      "profile_label": "Profile BusinessC",
+      "cdp_port": 18812,
+      "start_url": "https://example-c.com/login",
+      "mode": "approved-existing-local-profile",
+      "notes": "Reuse only when explicitly approved and verified."
+    }
+  ]
+}
+
