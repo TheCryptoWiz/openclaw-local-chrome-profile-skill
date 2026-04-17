@@ -1,0 +1,8 @@
+interface:
+  display_name: "OpenClaw Local Chrome Profile"
+  short_description: "Safe local Chrome profile reuse"
+  default_prompt: "Use $openclaw-local-chrome-profile to set up a safe local Chrome profile and CDP port workflow for one business."
+
+policy:
+  allow_implicit_invocation: true
+
